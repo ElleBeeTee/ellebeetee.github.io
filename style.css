@@ -1,0 +1,41 @@
+body {
+   background-color: lightpink; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+cite > a{
+    display: inline-block    /*make the word spaced out giving hyperlink space bigger/smaller */
+}
+
+#main-header{
+    display: flex;       /*this made the buttons move horizntally*/
+    height: 20%;
+    color: teal;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display: flex;
+    
+}
+
+#nav-ul > li{
+    padding: 8px;    /*put space between each button*/
+}
+
+.navbutton{
+    color: skyblue;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 15%;
+}
+
+body > header >nav >ul{
+    list-style: none;     /*remove bullet points*/
+}
+ 
+Body > header{
+    background-color: rgb(198, 151, 234);
+}
